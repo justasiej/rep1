@@ -1,0 +1,56 @@
+html, body  
+	{background: white; 
+	 text-align: center; 
+	 font-size: 1em; 
+	 font-family: verdana;
+	}
+body *
+	{margin: 0px; 
+	 padding: 1px; 
+	 font-size: 1em; 
+	 text-align: left;
+	}
+img 
+  {border: 0px;
+	}
+h1 
+	{font-size: 1.2em;
+	 color: #d77171
+	}
+h3
+	{font-size: 1em; 
+	 font-weight: bold;
+	 color: #c93f3f
+	}
+a 
+	{color: #f81078; 
+	 font-size: 1em;
+	}
+a:visited 
+	{color: #c60000;
+	}
+a:hover 
+	{color: #cb8583;
+	}
+#naglowek
+    {
+     height: 20%;
+     width:70%;
+     background-color:white;
+	}
+#tresc
+    {
+	height:76%;
+	width:50%;
+	background-color: white;
+	float:left;
+    text-align:center;
+	}
+#lista
+    {
+	height:70%;
+	width:15%;
+	background-color: white;
+	float:left;
+    }
+
