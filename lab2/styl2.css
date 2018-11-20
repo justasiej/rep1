@@ -1,0 +1,181 @@
+html, body  
+{
+     background: black; 
+	 text-align: center; 
+	 font-size: 1em
+	 font-family: verdana, tahoma, arial, helvetica, sans-serif;
+}
+body *
+	{margin: 0px; 
+	 padding: 0px; 
+	 font-size: 1em; 
+	 text-align: left;
+	 color: white;
+	}
+img 
+  {
+	 float: left;
+	 border: 0px;
+	}
+h1 
+	{font-size: 1.4em; 
+	 font-weight: bold;
+	 color: white;
+	}
+h2 
+	{font-size: 1.2em
+	 color: white;
+	}
+h3
+	{font-size: 1em; 
+	 font-weight: bold;
+	 color: white;
+	}
+a 
+	{color: #9a0000; 
+	 font-size: 1em;
+	}
+a:visited 
+	{color: #c60000;
+	}
+a:hover 
+	{color: #cb8583;
+	}
+p
+  {
+	 color: white;
+	}
+ ol {	
+     list-style-type:none;
+     padding:0;
+     margin:0;
+     background-color:white;
+     font-size:18px;
+     height:2em;
+     line-height:2em;
+     text-align:center;
+     }
+ ol a {
+    display:block;
+     text-decoration:none;
+     color:#000;
+     padding:0 5px;
+      }
+ ol > li {
+     float:left;
+     width:24.92%;
+     margin-left:1px;
+     background-color:#8c0404;
+     height:2em;
+      }
+ ol > li:first-child {
+     margin-left:0;
+      }
+ ol > li:hover {
+     background-color:#EEE;
+      }
+ ol > li:hover > a {
+     color:#09C;
+    }
+ ol > li:hover > ul {
+     display:block;
+     }
+
+     /* ----CZĘŚĆ-ROZWIJANA-MENU---- */
+
+ol > li > ul {
+     display:none;
+     list-style-type:none;
+     padding:0;
+     margin:0;
+      }
+ol > li > ul > li {
+     position:relative;
+     background-color:#EEE;
+      }
+ol > li > ul > li > a {
+     border-top:1px solid #FFF;
+      }
+ol > li > ul > li:hover {
+        background-color:#c0c0c0;
+      }
+ol > li > ul > li:hover > a {
+        color:#09C;
+	  }
+@media screen and (max-width:800px) 
+{
+  #kolumny {display:block;}
+	#leftpanel, #tresc, #rightpanel { margin:15px; width:auto;}
+	#stopka, #menu {font-size: 25%;}
+	#nagloweksr {display: none;}
+	
+}
+#menu
+{
+height: 4%;
+width:100%;
+background-color:white;
+float:left
+}
+
+#rightpanel
+{
+	height:76%;
+	width:15%;
+	background-color: black;
+	float:left;
+	background-image:url("ciasta1.jpg");
+}
+#leftpanel
+{
+	height:76%;
+	width:15%;
+	background-color: black;
+	float:left;
+	background-image:url("ciasta2.jpg");
+}
+#tresc
+{
+	height:76%;
+	width:70%;
+	background-color: black;
+	float:left;
+    text-align:center;
+}
+#naglowekleft
+{
+height: 20%;
+width:15%;
+background-color:black;
+float: left;
+
+}
+#nagloweksr
+{
+height: 50%;
+width:70%;
+background-color:black;
+background-image:url("ciasta3.jpg");
+text-align:center;
+
+/*background-repeat: no-repeat;*/
+
+float: left;
+
+}
+#naglowekright
+{
+height: 20%;
+width:15%;
+background-color:black;
+float:left;
+}
+
+#stopka
+{
+float: left; 
+height: 5%;
+width:100%;
+background-color:black;
+text-align:center;
+}
